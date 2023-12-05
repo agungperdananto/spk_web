@@ -20,3 +20,6 @@ get movie list
 
 get recommendations
 <img src='img/get_recs.png' alt='recommendations'/>
+
+ref:
+https://en.wikipedia.org/wiki/Pearson_correlation_coefficient
