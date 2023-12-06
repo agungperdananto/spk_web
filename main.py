@@ -67,14 +67,9 @@ class Recommendation(Resource):
             'recommendations': results
         }, HTTPStatus.OK.value
 
-class SAW(Resource):
-
-    def post(self):
-        return {4: 0.71, 2: 0.74, 3: 0.76, 1: 0.82, 5: 0.82, 6: 0.84}
 
 api.add_resource(Movie, '/movies')
 api.add_resource(Recommendation, '/recommendation')
-api.add_resource(SAW, '/saw')
 
 if __name__ == '__main__':
     app.run(port='5005', debug=True)
